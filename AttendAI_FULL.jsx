@@ -23,7 +23,7 @@ import * as faceapi from "face-api.js";
 // ── CONFIG ──────────────────────────────────────────────────
 const SUPABASE_URL  = "https://zwxgyyebrxfljvxosnuu.supabase.co";
 const SUPABASE_ANON = "sb_publishable_PJ7DK6Rq8hyqgxIFgCED9w_w1LYzeEf";
-const MODELS_PATH   = "/models"; // face-api.js model weights in /public/models/
+const MODELS_PATH   = "https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/weights"; // face-api.js model weights in /public/models/
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON);
 
