@@ -21,7 +21,7 @@ import { createClient } from "@supabase/supabase-js";
 import * as faceapi from "face-api.js";
 
 // ── CONFIG ──────────────────────────────────────────────────
-const SUPABASE_URL  = "https://YOUR_PROJECT_REF.supabase.co";
+const SUPABASE_URL  = "https://zwxgyyebrxfljvxosnuu.supabase.co";
 const SUPABASE_ANON = "YOUR_ANON_KEY";
 const MODELS_PATH   = "/models"; // face-api.js model weights in /public/models/
 
